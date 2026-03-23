@@ -1,5 +1,6 @@
 
 <div class="bg">
+<div class="bg_overlay">
     <div class="main_div">
         <div class="intro">
             <div class="img_holder">
@@ -17,7 +18,7 @@
             <p>That sounds kinda lame tho... I suppose I just have to make something with my last 64mb! That shoulnt be too hard, thats 8 TIMES the size of mario 64...</p>
             <!-- <p>That shoulnt be too hard, thats 8 TIMES the size of mario 64...</p> -->
 
-            <img src="public/assets/mario 64.png" alt="">
+            <img src="/assets/mario 64.png" alt="">
 
             <!-- <p>1: make a game, recording time with </p> -->
             <!-- <p>1: <br> make a game thats less than 64mb</p>
@@ -39,8 +40,8 @@
 
                 <h3>1: <br> make a game thats less than 64mb</h3>
                 <h3>2: <br> track your work with hackatime and git commits</h3>
-                <h3>3: <br> submit and get prizes!</h3>
-                <h3>3: <br> submit and get prizes!</h3>
+                <h3>3: <br> submit at least 2 hours and get a thumbdrive with everyones games on it!</h3>
+                <h3>4: <br> then use your hours to get awesome prizes!</h3>
             </div>
 
             <p>&#60;:::::::::::::&#93;==()&#60;('.')&#62;()==&#91;:::::::::::::&#62;</p>
@@ -60,7 +61,7 @@
                 <!-- <p>64gb thumbdrive <br> -(4 Hours)- <br> 128gb thumbdrive <br> -(6 Hours)- </p> -->
 
                 <img src="/assets/rewards/ssd.png" alt="">
-                <p>$50 storage grant <br> -(10 Hours)- </p>
+                <p>$45 storage grant <br> -(10 Hours)- </p>
 
                 <img src="/assets/rewards/handheld.png" alt="">
                 <p>Emulation Handheld <br> -(15 Hours)- </p>
@@ -79,7 +80,7 @@
             <p>_.~"~._.~"~._.~"~._.~"~.__.~"~._.~"~._.~"~._.~"~._</p>
             <div class="img_holder">
             <img src="/assets/rewards/money.png" alt="">
-            <button style="width: 128px; height: 32px; ">$submit$</button>
+            <button style="width: 132px; height: 58px; "> <h3>$submit$</h3> </button>
             <img src="/assets/rewards/money.png" alt="">
             </div>
             <p>_.~"~._.~"~._.~"~._.~"~.__.~"~._.~"~._.~"~._.~"~._</p>
@@ -87,10 +88,13 @@
         </div>
     </div>
 </div>
+</div>
 
 <style>
     :global(body) {
     margin: 0;
+    height: 2560px;
+    padding: 0%;
     }
 
     p {
@@ -112,10 +116,15 @@
     .bg {
         margin: 0%;
         height: 2560px;
-        background-color: black;
         background-image: url(/assets/pbc bg.png);
-        margin: 0%;
+        background-color: black;
+        
+    }
+
+    .bg_overlay {
+        background-color: rgba(0, 0, 0, 0.046);
         padding-top: 32px;
+        height: 2560px;
     }
 
     .main_div {
@@ -125,7 +134,7 @@
         /* width: 528px; */
         /* width: fit-content; */
         max-width: 800px;
-        background-color: rgba(0, 0, 0, 0.658);
+        background-color: rgba(0, 0, 0, 0.739);
         /* background-color: #507c38; */
         margin: auto;
         /* margin-top: 32px; */
@@ -168,6 +177,13 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
+    }
+
+    button {
+        /* background-color: aqua; */
+        background-image: url(/assets/dollar2.jpg);
+        height: 64px;
+        color: white;
     }
 
 </style>
